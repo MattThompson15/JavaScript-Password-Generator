@@ -10,7 +10,7 @@ function writePassword() {
 
 }
 // Separate function to generate random password based on user criteria choice//
-function generatePassword() {
+function generatePassword() 
 
   //Prompt to enter desired length of password
   var length=Number(prompt("How many characters will your password be?Please choose between 8 and 28 characters"));
